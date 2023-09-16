@@ -10,7 +10,7 @@ This website allows users to manage their Books, which includes add, remove, and
 
 <h3 align="center">Mobile version</h3>
 
-<br>
+<hr>
 <p align="center">
   <a href="#">
     <img src="./assets/desktop-version-site.png" alt="website image">
@@ -18,6 +18,25 @@ This website allows users to manage their Books, which includes add, remove, and
 </p>
 
 <h3 align="center">Desktop version</h3>
+
+
+## How to use
+
+### Book List
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Deeply Knowing What's going on this Website
 
