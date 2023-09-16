@@ -6,7 +6,7 @@ This website allows users to manage their Books, which includes add, remove, and
 **Class-Based Structure:**
 
 ***Book*** 
-class encapsulates the data of book.
+class encapsulates the details of book.
 
 
 ```
