@@ -174,7 +174,7 @@ This `switch` statement enhances code readability and maintainability.
   }
 ```
 
-- `showAlert(message, className, color)`: This method show pop up at the top for ensuring the user clear feedback, like message : `Please fill in all fields` , `Book id must me numeric value` and `book added to Library`
+- `showAlert(message, className, color)`: This method show pop up at the top of the page for ensuring to provide clear feedback to user, like message : `Please fill in all fields` , `Book id must me numeric value` and `book added to Library`
 
 
 
