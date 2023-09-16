@@ -229,15 +229,8 @@ static addBook(e) {
 
 Robust error handling is a key feature of `try-catch-finally` statements to ensure a smooth and secure user experience:
 
-- **Try Block**: Within the `try` block, each user action is attempted. When user ckick on `add book`option then this block of code exceute then  check 
-- *any field *
-- **Catch Block**: In the event of an error, such as an invalid amount or insufficient funds, the `catch` block captures the error and generates user-friendly error messages. This ensures that users receive clear and informative feedback about the nature of the issue.
+- **Try Block**: Within the `try` block, each user action is attempted. When user ckick on `add book`option then this block of code exceute then  check `any field empty` if any field empty then throw Error. `Book id ` if book id not numeric or less than 13  or book id already inserted throw error
 
-- **Finally Block**: The `finally` block guarantees that specific actions are taken regardless of whether an error occurred or not. It clears the input fields after each transaction, offering users a seamless and clean interface for subsequent actions.
+- **Catch Block**: In the event of an error call showAlert() that generates user-friendly error messages as pop up. This ensures that users receive clear and informative feedback about the nature of the issue.
 
-These error-handling mechanisms contribute to the website's robustness, enhancing user trust and confidence in the platform.
-
-
-git add . 
-git commit -m "update"  
-git push
+- **Finally Block**: The `finally` block guarantees log in console to show that everything is work fine
