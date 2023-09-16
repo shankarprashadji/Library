@@ -227,7 +227,7 @@ localStorage.setItem("books", JSON.stringify(this.books));
 <details>
 
 
-<summary> **sort(headName) method code** </summary>
+<summary>sort(headName) method code</summary>
 
 
 ```
