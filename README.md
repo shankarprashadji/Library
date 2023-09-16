@@ -102,7 +102,8 @@ the class encapsulates the details of the book.
 
 
 
-
+<details>
+<summary>Mobile version view</summary>
 ```
 class Book {
 constructor(title, author, ISBN) {
@@ -112,6 +113,8 @@ this.ISBN = ISBN;
 }
 }
 ```
+</details>
+
 1. **Properties:**
 
 
