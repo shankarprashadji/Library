@@ -1,4 +1,4 @@
-# Simple Siksha Library Website
+# Siksha Library Website
 
 This website allows users to manage their Books, which includes add, remove, and sort their Books.
 
