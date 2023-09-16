@@ -235,7 +235,7 @@ static addBook(e) {
 
 Robust error handling is a key feature of `try-catch-finally` statements to ensure a smooth and secure user experience:
 
-- **Try Block**: Within the `try` block, each user action is attempted. When user ckick on `add book`option then this block of code exceute then  check `any field empty` if any field empty then throw Error. `Book id ` if book id not numeric or less than 13  or book id already inserted throw error
+- **Try Block**: Within the `try` block, each user action is attempted. When user click on `add book`option then this block of code exceute then  check `any field empty` if any field empty then throw Error. `Book id ` if book id not numeric or less than 13  or book id already inserted throw error
 
 - **Catch Block**: In the event of an error call showAlert() that generates user-friendly error messages as pop up. This ensures that users receive clear and informative feedback about the nature of the issue.
 
