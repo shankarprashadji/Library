@@ -2,6 +2,7 @@
 
 This website allows users to manage their Books, which includes add, remove, and sort their Books.
 
+<img src="./assets/head.png" alt="website image">
 
 ## Deeply Knowing What's going on this Website
 
