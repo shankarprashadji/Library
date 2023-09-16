@@ -176,18 +176,58 @@ class DomManipulator {
 
 
 
+```
+static addBook(e) {
+    e.preventDefault();
+    const bookISBN = bookId.value;
+    try {
+      if (title.value === "" || author.value === "" || bookISBN === "") {
+        throw Error("Please fill in all fields");
+      } else {
+        // True if  character Found other than [0-9] number
+        if (bookISBN.match(/\D/g)) throw Error("Book id must me numeric value");
+        if (bookISBN.length < 13)
+          throw Error("ISBN number must be greater than 13 digit");
+        //  check book already added or not
+        const books = Library.getBooks();
+
+        books.forEach((book) => {
+          if (book.ISBN == bookISBN) throw Error("Book ID already registered");
+        });
+
+        // add to Object
+        const book = new Book(title.value, author.value, bookISBN);
+        Library.addBook(book);
+        // add book to DOM
+        const row = document.createElement("tr");
+        row.innerHTML = `
+      <td>${book.title}</td>
+      <td>${book.author}</td>
+      <td>${book.ISBN}</td>
+      <td><button id=${book.ISBN} class="btn-close btn"></button></td>
+      `;
+        list.appendChild(row);
+        // clear after insertion
+        title.value = "";
+        author.value = "";
+        bookId.value = "";
+        DomManipulator.showAlert("book added to Library", "bg-success");
+      }
+    } catch (e) {
+      DomManipulator.showAlert(e, "bg-danger", "text-white");
+    }
+    finally {
+      console.log("Application Works fine")
+    }
+  }
+```
 
 
-
-
-
-
+- `addBook(e)`: This method use to add book on UI and other place. In this method user provide book details check and then do further operation. Also use Try-Catch-Finally Statements to handle error
 
 ### Try-Catch-Finally Statements
 
-**Try-Catch-Finally Statements for Error Handling:**
-
-Robust error handling is a key feature of this JavaScript file, which employs `try-catch-finally` statements to ensure a smooth and secure user experience:
+Robust error handling is a key feature of `try-catch-finally` statements to ensure a smooth and secure user experience:
 
 - **Try Block**: Within the `try` block, each user action is attempted. This includes depositing, withdrawing, and checking the balance.
 
