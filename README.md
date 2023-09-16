@@ -11,8 +11,8 @@ This website allows users to manage their Booklist, which includes adding, remov
 <img src="./assets/mobile-version-site.png" height="400" alt="website image">
 </p>
 
-</details>
 <h3 align="center">Mobile version</h3>
+</details>
 
 
 <hr>
@@ -24,9 +24,9 @@ This website allows users to manage their Booklist, which includes adding, remov
 <img src="./assets/desktop-version-site.png" alt="website image">
 </p>
 
+<h3 align="center">Desktop version</h3>
 </details>
 
-<h3 align="center">Desktop version</h3>
 
 
 
