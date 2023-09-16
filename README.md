@@ -1,4 +1,4 @@
-# Simple Library Website
+# Simple Siksha Library Website
 
 This website allows users to manage their Books, which includes add, remove, and sort their Books.
 
@@ -20,9 +20,9 @@ This website allows users to manage their Books, which includes add, remove, and
 <h3 align="center">Desktop version</h3>
 
 
-## How to use
+## How to use Libray
 
-### <a href="">visit Library</a>
+### <a href="">visit Siksha Library Website</a>
 
 
 
@@ -67,7 +67,7 @@ class Book {
    This class efficiently bundles these properties, ensuring they are logically organized and encapsulated.
 
 
-**Class-Based Structure for Library**
+**Class-Based Structure for Siksha Library**
 
 class encapsulates the data of books and method that manipulate books data.
 
@@ -217,7 +217,7 @@ This `switch` statement enhances code readability and maintainability.
   }
 ```
 
-- `showAlert(message, className, color)`: This method show pop up at the top of the page for ensuring to provide clear feedback to user, like message : `Please fill in all fields` , `Book id must me numeric value` and `book added to Library`
+- `showAlert(message, className, color)`: This method show pop up at the top of the page for ensuring to provide clear feedback to user, like message : `Please fill in all fields` , `Book id must me numeric value` and `book added to Siksha Library`
 
 <br>
 
@@ -237,7 +237,7 @@ static addBook(e) {
         if (bookISBN.length < 13)
           throw Error("ISBN number must be greater than 13 digit");
         //  check book already added or not
-        const books = Library.getBooks();
+        const books = Siksha Library.getBooks();
 
         books.forEach((book) => {
           if (book.ISBN == bookISBN) throw Error("Book ID already registered");
@@ -245,7 +245,7 @@ static addBook(e) {
 
         // add to Object
         const book = new Book(title.value, author.value, bookISBN);
-        Library.addBook(book);
+        Siksha Library.addBook(book);
         // add book to DOM
         const row = document.createElement("tr");
         row.innerHTML = `
@@ -259,7 +259,7 @@ static addBook(e) {
         title.value = "";
         author.value = "";
         bookId.value = "";
-        DomManipulator.showAlert("book added to Library", "bg-success");
+        DomManipulator.showAlert("book added to Siksha Library", "bg-success");
       }
     } catch (e) {
       DomManipulator.showAlert(e, "bg-danger", "text-white");
@@ -289,34 +289,34 @@ Robust error handling is a key feature of `try-catch-finally` statements to ensu
 ```
   static removeBook(e) {
     if (e.target.classList.contains("btn-close")) {
-      Library.removeBook(e.target.getAttribute("id"));
+      Siksha Library.removeBook(e.target.getAttribute("id"));
       e.target.parentElement.parentElement.remove();
     }
   }
 ```
 
-- `removeBook(e)`: This method use to remove book from DOM and invoked Library.removeBook() method for further operation
+- `removeBook(e)`: This method use to remove book from DOM and invoked Siksha Library.removeBook() method for further operation
 
 
 ```
 static sort(e) {
     console.log(e.target.value);
-    Library.sort(e.target.value)
+    Siksha Library.sort(e.target.value)
     main()
   }
 ```
 
-- `removeAllBooks()`: This method use to remove all books from DOM and invoked Library.removeBook() method for further operation
+- `removeAllBooks()`: This method use to remove all books from DOM and invoked Siksha Library.removeBook() method for further operation
 
 ```
 static sort(e) {
     console.log(e.target.value);
-    Library.sort(e.target.value)
+    Siksha Library.sort(e.target.value)
     main()
   }
 }
 ```
-- `sort(e)`: This method sort Books order by invoked  Library.sort(e.target.value) method and Update DOM by invoked main() method
+- `sort(e)`: This method sort Books order by invoked  Siksha Library.sort(e.target.value) method and Update DOM by invoked main() method
 
 <br>
 
@@ -325,7 +325,7 @@ static sort(e) {
 
 ```
 function  main() {
-  const books = Library.getBooks();
+  const books = Siksha Library.getBooks();
   list.innerHTML = "";
   books.forEach((book) => {
     const row = document.createElement("tr");
