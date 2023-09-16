@@ -36,7 +36,8 @@ This website allows users to manage their Books, which includes add, remove, and
 
 3. ### remove book
 
-- for removing book click on corresponding
+- for removing book click on corresponding close icon
+-
 
 
 
