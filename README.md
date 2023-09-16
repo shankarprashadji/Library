@@ -135,7 +135,7 @@ The JavaScript effectively uses a `switch` statement to handle user actions:
 
 When the user selects one of option from Dropdown then  corresponding swicth cases execute and perform appropriate operation
 
-``cases ``
+``cases to be match ``
 
 - **title**: if this case matched then Books sorted by title 
 
