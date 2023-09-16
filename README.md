@@ -11,6 +11,6 @@ This website allows users to manage their Books, In which includes add, remove, 
 3. **Withdraw:** To make a withdrawal, enter the amount you want to withdraw in the "Withdraw Amount" input field and click the "Withdraw" button.
 
 
-git add .  &&  git commit -m "update"  
-
- git push
+git add . 
+git commit -m "update"  
+git push
