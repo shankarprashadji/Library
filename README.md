@@ -3,18 +3,14 @@
 This website allows users to manage their Books, which includes add, remove, and sort their Books.
 
 <p align="center">
-  <a href="#">
     <img src="./assets/mobile-version-site.png" height="400" alt="website image">
-  </a>
 </p>
 
 <h3 align="center">Mobile version</h3>
 
 <hr>
 <p align="center">
-  <a href="#">
     <img src="./assets/desktop-version-site.png" alt="website image">
-  </a>
 </p>
 
 <h3 align="center">Desktop version</h3>
@@ -23,6 +19,13 @@ This website allows users to manage their Books, which includes add, remove, and
 ## How to use Library
 
 1. ### <a href="">visit Siksha Library Website</a>
+
+- You see already listed books 
+- It allows remove all from library
+
+2. ### add your book 
+
+- you can add your book in book list
 
 
 
