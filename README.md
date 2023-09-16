@@ -170,7 +170,7 @@ class DomManipulator {
   }
 ```
 
-- `showAlert(message, className, color)`: This method show pop up at the top for ensuring the user clear feedback, like message : `Error: Please fill in all fields` , `Error: Book id must me numeric value` and `book added to Library`
+- `showAlert(message, className, color)`: This method show pop up at the top for ensuring the user clear feedback, like message : `Please fill in all fields` , `Book id must me numeric value` and `book added to Library`
 
 
 

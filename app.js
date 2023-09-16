@@ -137,7 +137,7 @@ class DomManipulator {
         DomManipulator.showAlert("book added to Library", "bg-success");
       }
     } catch (e) {
-      DomManipulator.showAlert(e, "bg-danger", "text-white");
+      DomManipulator.showAlert(e.message, "bg-danger", "text-white");
     }
     finally {
       console.log("Application Works fine")
