@@ -4,7 +4,7 @@ This website allows users to manage their Books, which includes add, remove, and
 
 <p align="center">
   <a href="#">
-    <img src="./assets/mobile-version-site.png" alt="website image">
+    <img src="./assets/mobile-version-site.png" height="10" alt="website image">
   </a>
 </p>
 
