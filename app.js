@@ -108,7 +108,7 @@ class DomManipulator {
         throw Error("Please fill in all fields");
       } else {
         // True if  character Found other than [0-9] number
-        if (bookISBN.match(/\D/g)) throw Error("Book id must me numeric value");
+        if (bookISBN.match(/\D/g)) throw Error("Book id must be numeric value");
         if (bookISBN.length < 13)
           throw Error("ISBN number must be greater than 13 digit");
         //  check book already added or not
