@@ -94,7 +94,7 @@ This website allows users to manage their Booklist, which includes adding, remov
 
 ### JavaScript Classes
 
-
+show sort(headName) method contents
 **Class-Based Structure for Book**
 
 
@@ -227,7 +227,7 @@ localStorage.setItem("books", JSON.stringify(this.books));
 <details>
 
 
-<summary>show sort(headName) method contents</summary>
+<summary> **sort(headName) method code** </summary>
 
 
 ```
