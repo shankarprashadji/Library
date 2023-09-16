@@ -101,7 +101,7 @@ static removeAllBooks() {
 
 <details>
 
-  <summary>show sort(headName) contents</summary>
+  <summary>show `sort(headName)` contents</summary>
 
 ```
   static sort(headName) {
