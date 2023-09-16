@@ -345,10 +345,11 @@ function  main() {
   });
 }
 
-</details>
-<br>
-
 #### main() function is the try point of Application
 
 ```
+
+</details>
+<br>
+
 - `At the the last :` add EventListener to appropriate nodes
