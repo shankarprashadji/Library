@@ -32,7 +32,7 @@ class Book {
 
 **Class-Based Structure for Library**
 
-class encapsulates the data of book list and method that manipulate book.
+class encapsulates the data of books and method that manipulate books data.
 
 1. **Properties:**
 ```
