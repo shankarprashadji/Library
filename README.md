@@ -1,6 +1,6 @@
-# Library Simple Website
+# Simple Library Website
 
-This simple website allows users to manage their Books, add, remove, and sort their Books.
+This website allows users to manage their Books, In which includes add, remove, and sort their Books.
 
 ## Instructions
 
