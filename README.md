@@ -1,11 +1,15 @@
 # Simple Library Website
 
-This website allows users to manage their Books, In which includes add, remove, and sort their Books.
+This website allows users to manage their Books, which includes add, remove, and sort their Books.
 
 
 **Class-Based Structure:**
 
-The heart of this JavaScript file is the `BankAccount` class, which adheres to Object-Oriented Programming principles. This class encapsulates the data and behavior associated with a bank account.
+3 class that use Object-Oriented Programming to build this class base system 
+
+
+***Book***
+
 
 1. **Properties:**
 
