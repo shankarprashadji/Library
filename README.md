@@ -71,7 +71,7 @@ static getBooks() {
   }
   ```
 
-   - `addBook(book)`: Users can utilize this method to add book. It then updates the localstorage and UI accordingly.
+   - `addBook(book)`: Users can utilize this method to add book, then updates the localstorage and UI accordingly.
 
 ```
 static removeBook(ISBN) {
