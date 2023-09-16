@@ -100,7 +100,9 @@ static removeAllBooks() {
 - `removeAllBooks()`: Users can use this method to remove all books.
 
 <details>
+
   <summary>show code contents</summary>
+
 ```
   static sort(headName) {
     switch (headName) {
@@ -139,6 +141,7 @@ static removeAllBooks() {
     localStorage.setItem("books", JSON.stringify(this.books));
   }
 ```
+
 </details>
 
 - `sort(headName)`: This method use for sort books by `title`, `author` and `book id`
