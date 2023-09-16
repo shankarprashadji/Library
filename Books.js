@@ -2,7 +2,7 @@ const bookData = [
   {
     title: "All Demo Titles",
     author: "All Demo author",
-    ISBN: "All Demo ISBN"
+    ISBN: "978074327353463"
   },
   {
     title: "The Great Gatsby",
