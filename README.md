@@ -149,7 +149,8 @@ This `switch` statement enhances code readability and maintainability.
 
 
 **Class-Based Structure: DomManipulator**
-``dsjlkf``
+
+- `This class encapsulted method for DOM Manipulation`
 
 ```
 class DomManipulator {
@@ -169,7 +170,9 @@ class DomManipulator {
   }
 ```
 
-- `showAlert(message, className, color)`: this method show 
+- `showAlert(message, className, color)`: This method show pop up at the top for ensuring the user clear feedback.
+
+-- jgb
 
 
 
