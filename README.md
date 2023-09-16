@@ -10,6 +10,7 @@ This website allows users to manage their Books, which includes add, remove, and
 
 <h3 align="center">Mobile version</h3>
 
+<br>
 <p align="center">
   <a href="#">
     <img src="./assets/desktop-version-site.png" alt="website image">
