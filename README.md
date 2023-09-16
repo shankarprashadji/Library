@@ -8,7 +8,6 @@ This website allows users to manage their Books, which includes add, remove, and
 ***Book*** 
 class encapsulates the data of book.
 
-1. **Properties:**
 
 ```
 class Book {
@@ -18,6 +17,8 @@ class Book {
     this.ISBN = ISBN;
   }
 }
+
+1. **Properties:**
 
 ```
 
