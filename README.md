@@ -101,7 +101,7 @@ static removeAllBooks() {
 
 <details>
 
-  <summary>show `sort(headName)` contents</summary>
+  <summary>show sort(headName) method contents</summary>
 
 ```
   static sort(headName) {
@@ -194,7 +194,9 @@ This `switch` statement enhances code readability and maintainability.
 
 
 
+<details>
 
+  <summary>show addBook(e) method contents</summary>
 
 ```
 static addBook(e) {
@@ -241,7 +243,7 @@ static addBook(e) {
     }
   }
 ```
-
+</details>
 
 - `addBook(e)`: This method use to add book on UI and other place. In this method check user provided book details and then do further operation. Also use Try-Catch-Finally Statements to handle error
 
