@@ -3,6 +3,8 @@
 This website allows users to manage their Books, which includes add, remove, and sort their Books.
 
 
+### JavaScript Class
+
 **Class-Based Structure:**
 
 ***Book*** 
@@ -125,19 +127,28 @@ static removeAllBooks() {
 
 - `sort(headName)`: This method use for sort books by `title`, `author` and `book id`
 
+### Switch Statements
+
 **Switch Statements for User Actions:**
 
 The JavaScript effectively uses a `switch` statement to handle user actions:
 
-- **Deposit**: When the user selects "Deposit" from the action dropdown, the corresponding case executes the `deposit` method of the `BankAccount` class, facilitating the addition of funds to the account.
+When the user selects one of option from Dropdown then  corresponding swicth cases execute and perform appropriate operation
 
-- **Withdraw**: The "Withdraw" case invokes the `withdraw` method, enabling users to withdraw funds, provided the withdrawal amount is valid.
+``cases ``
 
-- **Check Balance**: The "Check Balance" case does not perform any specific action but allows users to view their current balance.
+- **title**: if this case matched then Books sorted by title 
 
-- **Default**: In the default case, an error message is generated for invalid actions, ensuring that the user receives clear feedback.
+- **author**: if this case matched then Books sorted by author 
 
-This `switch` statement enhances code readability and maintainability by neatly organizing action-related logic.
+- **title**: if this case matched then Books sorted by bookId 
+
+- **default**: when user selected default that is none then pop  up show on UI for ensuring the user clear feedback.
+
+This `switch` statement enhances code readability and maintainability.
+
+
+### Try-Catch-Finally Statements
 
 **Try-Catch-Finally Statements for Error Handling:**
 
