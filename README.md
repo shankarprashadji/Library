@@ -49,7 +49,7 @@ This website allows users to manage their Booklist, which includes adding, remov
 
 - refer below image for add book
 <p align="center">
-<img src="./assets/example1.png" height="20%" alt="website image">
+<img src="./assets/example1.png" height="350" alt="website image">
 </p>
 
 
