@@ -400,10 +400,6 @@ console.log("Application Works fine")
 </details>
 
 
-<br>
-
-
-
 
 - `addBook(e)`: This method is used to add book on UI and other place. In this method check the provided book details and then do further operation. Also, use Try-Catch-Finally Statements to handle error
 
