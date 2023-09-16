@@ -2,14 +2,21 @@
 
 This website allows users to manage their Books, which includes add, remove, and sort their Books.
 
-
 <p align="center">
   <a href="#">
-    <img src="./assets/head.png" alt="website image">
+    <img src="./assets/mobile-version-site.png" alt="website image">
   </a>
 </p>
 
-<h3 align="center">Library</h3>
+<h3 align="center">Mobile version</h3>
+
+<p align="center">
+  <a href="#">
+    <img src="./assets/desktop-version-site.png" alt="website image">
+  </a>
+</p>
+
+<h3 align="center">Desktop version</h3>
 
 ## Deeply Knowing What's going on this Website
 
