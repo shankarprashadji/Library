@@ -89,7 +89,7 @@ This website allows users to manage their Booklist, which includes adding, remov
 ## Deeply Knowing What's going on this Website
 
 
-#### The very top section imports book data and gets nodes by their IDs
+#### Inside app.js very top section imports book data and gets nodes by their IDs
 
 
 ### JavaScript Classes
