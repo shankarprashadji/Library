@@ -139,7 +139,7 @@ static removeAllBooks() {
     localStorage.setItem("books", JSON.stringify(this.books));
   }
 ```
-<details/>
+</details>
 
 - `sort(headName)`: This method use for sort books by `title`, `author` and `book id`
 
