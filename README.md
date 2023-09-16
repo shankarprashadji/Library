@@ -245,3 +245,30 @@ Robust error handling is a key feature of `try-catch-finally` statements to ensu
     }
   }
 ```
+
+- `removeBook(e)`: This method use to remove book from DOM and invoked Library.removeBook() method for further operation
+
+
+```
+static sort(e) {
+    console.log(e.target.value);
+    Library.sort(e.target.value)
+    main()
+  }
+```
+
+- `removeAllBooks()`: This method use to remove all books from DOM and invoked Library.removeBook() method for further operation
+
+```
+static sort(e) {
+    console.log(e.target.value);
+    Library.sort(e.target.value)
+    main()
+  }
+}
+```
+- `sort(e)`: This method sort Books order by invoked  Library.sort(e.target.value) method and Update DOM by invoked main() method
+
+#### Initiate program by main() function
+
+At the the last addEventListener to appropriate Node 

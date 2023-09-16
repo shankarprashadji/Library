@@ -151,34 +151,34 @@ class DomManipulator {
     }
   }
 
-
-  static main() {
-    const books = Library.getBooks();
-    list.innerHTML = "";
-    books.forEach((book) => {
-      const row = document.createElement("tr");
-      row.innerHTML = `
-  <td>${book.title}</td>
-  <td>${book.author}</td>
-  <td>${book.ISBN}</td>
-  <td><button id=${book.ISBN} class="btn-close btn"></button></td>
-  `;
-      list.appendChild(row);
-    });
-  }
-
   static removeAllBooks() {
     list.innerHTML = "";
     Library.removeAllBooks();
   }
   static sort(e) {
-    console.log(e.target.value);
     Library.sort(e.target.value)
-    DomManipulator.main()
+    main()
   }
 }
+
+function  main() {
+  const books = Library.getBooks();
+  list.innerHTML = "";
+  books.forEach((book) => {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+<td>${book.title}</td>
+<td>${book.author}</td>
+<td>${book.ISBN}</td>
+<td><button id=${book.ISBN} class="btn-close btn"></button></td>
+`;
+    list.appendChild(row);
+  });
+}
+
+
 bookForm.addEventListener("submit", DomManipulator.addBook);
 list.addEventListener("click", DomManipulator.removeBook);
 clearBtn.addEventListener("click", DomManipulator.removeAllBooks);
 SortBook.addEventListener("click", DomManipulator.sort);
-document.addEventListener("DOMContentLoaded", DomManipulator.main);
+document.addEventListener("DOMContentLoaded", main);
