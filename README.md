@@ -85,7 +85,7 @@ static removeAllBooks() {
 - `removeAllBooks()`: Users can use this method to remove all books.
 
 ```
- static sort(headName) {
+  static sort(headName) {
     switch (headName) {
       case "title":
         this.books.sort((a, b) => {
@@ -114,10 +114,13 @@ static removeAllBooks() {
           else return 0
         })
         break;
+        default :
+      DomManipulator.showAlert("none selected nothig to sort", "bg-info");
+
+
     }
     localStorage.setItem("books", JSON.stringify(this.books));
   }
-}
 ```
 
 - `sort(headName)`: This method use for sort books by `title`, `author` and `book id`
