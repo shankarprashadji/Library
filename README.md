@@ -17,10 +17,8 @@ class Book {
     this.ISBN = ISBN;
   }
 }
-
-1. **Properties:**
-
 ```
+1. **Properties:**
 
    - `title`: This property stores the book's title
    - `author`: This property stores the book's author
