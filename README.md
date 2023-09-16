@@ -56,9 +56,73 @@ static getBooks() {
   }
 ```
 
-   - `getBooks()`: This method allows users to deposit funds into their account. It performs essential checks to ensure the amount is valid (greater than zero and not NaN) and updates the account balance accordingly.
+   - `getBooks()`: This method allows users to get Books from localStorage,if user first time open this website than localStorage empty for this website then Some books Stores on localStorage. If user already use this website than this method return already store books
 
-   - `withdraw(amount)`: Users can utilize this method to withdraw funds. It performs rigorous validation, ensuring the withdrawal amount is valid (greater than zero, not NaN, and not exceeding the current balance). It then updates the balance accordingly.
+ ```
+ static addBook(book) {
+    this.books.push(book);
+
+    localStorage.setItem("books", JSON.stringify(this.books));
+  }
+  ```
+
+   - `addBook(book)`: Users can utilize this method to add book. It then updates the localstorage and UI accordingly.
+
+```
+static removeBook(ISBN) {
+    this.books = this.books.filter((book) => book.ISBN !== ISBN);
+    localStorage.setItem("books", JSON.stringify(this.books));
+  }
+```
+- `removeBook(ISBN)`: Users can utilize this method to remove book. 
+
+```
+static removeAllBooks() {
+    this.books = [];
+    localStorage.setItem("books", JSON.stringify(this.books));
+  }
+```
+- `removeAllBooks()`: Users can use this method to remove all books.
+
+```
+ static sort(headName) {
+    switch (headName) {
+      case "title":
+        this.books.sort((a, b) => {
+          if (a.title > b.title)
+            return 1
+          else if (a.title < b.title)
+            return -1
+          else return 0
+        })
+        break;
+      case "author":
+        this.books.sort((a, b) => {
+          if (a.author > b.author)
+            return 1
+          else if (a.author < b.author)
+            return -1
+          else return 0
+        })
+        break;
+      case "bookId":
+        this.books.sort((a, b) => {
+          if (a.ISBN > b.ISBN)
+            return 1
+          else if (a.ISBN < b.ISBN)
+            return -1
+          else return 0
+        })
+        break;
+    }
+    localStorage.setItem("books", JSON.stringify(this.books));
+  }
+}
+```
+
+- `sort(headName)`: This method use for sort books by `title`, `author` and `book id`
+
+
 
 This class-based structure not only provides a neat and organized way to manage account-related data but also promotes code reusability and maintainability.
 
