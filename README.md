@@ -1,7 +1,6 @@
-# Library
-# Bank Account Management Website
+# Library Simple Website
 
-This simple website allows users to manage their bank accounts, including making deposits, withdrawals, and checking their account balance. It demonstrates the use of JavaScript classes, switch statements, and try-catch-finally statements for handling various banking operations.
+This simple website allows users to manage their Books, add, remove, and sort their Books.
 
 ## Instructions
 
