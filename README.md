@@ -43,10 +43,9 @@ This website allows users to manage their Books, which includes add, remove, and
 - click on Remove All button to remove all books from list 
 
 
-## Features
-
 1. ### sort books
 - sort book by select option from Sort Books: `By title`, `By auther` and `By book id`
+
 
 
 
