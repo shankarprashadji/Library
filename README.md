@@ -5,17 +5,25 @@ This website allows users to manage their Books, which includes add, remove, and
 
 **Class-Based Structure:**
 
-3 class that use Object-Oriented Programming to build this class base system 
-
-
 ***Book***
-
+ This class encapsulates the data of book.
 
 1. **Properties:**
 
-   - `accountHolder`: This property stores the account holder's name.
-   - `accountType`: It holds the account type, such as "Savings" or "Checking."
-   - `balance`: This property represents the current balance of the account.
+```
+class Book {
+  constructor(title, author, ISBN) {
+    this.title = title;
+    this.author = author;
+    this.ISBN = ISBN;
+  }
+}
+
+```
+
+   - `title`: This property stores the book's title
+   - `author`: This property stores the book's author
+   - `ISBN`: This property stores the book's ISBN
 
    This class efficiently bundles these properties, ensuring they are logically organized and encapsulated.
 
