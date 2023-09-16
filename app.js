@@ -82,9 +82,9 @@ class Library {
 
 //  DOM manipulation
 class DomManipulator {
-  static showAlert(message, className) {
+  static showAlert(message, className, color) {
     {
-      alert.classList.add(className);
+      alert.classList.add(className, color);
       alert.appendChild(document.createTextNode(message));
       // alert.style.display = "block";
       // clear alert message after 4 esc
@@ -130,9 +130,13 @@ class DomManipulator {
         title.value = "";
         author.value = "";
         bookId.value = "";
+        DomManipulator.showAlert("book added to Library", "bg-success");
       }
     } catch (e) {
-      DomManipulator.showAlert(e, "bg-info");
+      DomManipulator.showAlert(e, "bg-danger", "text-white");
+    }
+    finally {
+      console.log("Application Works fine")
     }
   }
 
