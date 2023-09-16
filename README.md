@@ -275,4 +275,4 @@ static sort(e) {
 
 #### Initiate program by main() function
 
-At the the last addEventListener to appropriate Node 
+- `At the the last :` add EventListener to appropriate nodes
