@@ -52,10 +52,7 @@ This website allows users to manage their Booklist, which includes adding, remov
 <img src="./assets/example1.png" height="300" alt="website image">
 </p>
 
-
-
-
-
+-------------------------------------------
 
 ### Remove book
 
