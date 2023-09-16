@@ -31,6 +31,7 @@ class Book {
 **Class-Based Structure: Library**
 
 class encapsulates the data of book list and method that manipulate book.
+
 1. **Properties:**
 ```
 static books = [];
@@ -152,8 +153,9 @@ This `switch` statement enhances code readability and maintainability.
 
 - `This class encapsulted method for DOM Manipulation`
 
+1. **Methods:**
+
 ```
-class DomManipulator {
   static showAlert(message, className, color) {
     {
       alert.classList.add(className, color);
@@ -234,3 +236,12 @@ Robust error handling is a key feature of `try-catch-finally` statements to ensu
 - **Catch Block**: In the event of an error call showAlert() that generates user-friendly error messages as pop up. This ensures that users receive clear and informative feedback about the nature of the issue.
 
 - **Finally Block**: The `finally` block guarantees log in console to show that everything is work fine
+
+```
+  static removeBook(e) {
+    if (e.target.classList.contains("btn-close")) {
+      Library.removeBook(e.target.getAttribute("id"));
+      e.target.parentElement.parentElement.remove();
+    }
+  }
+```
