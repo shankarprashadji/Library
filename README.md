@@ -5,8 +5,8 @@ This website allows users to manage their Books, which includes add, remove, and
 
 **Class-Based Structure:**
 
-***Book***
- This class encapsulates the data of book.
+***Book*** 
+class encapsulates the data of book.
 
 1. **Properties:**
 
@@ -26,6 +26,16 @@ class Book {
    - `ISBN`: This property stores the book's ISBN
 
    This class efficiently bundles these properties, ensuring they are logically organized and encapsulated.
+
+
+***Library***
+```
+static books = [];
+```
+1. **Properties:**
+
+- `Books`:this property Store book object 
+
 
 2. **Methods:**
 
