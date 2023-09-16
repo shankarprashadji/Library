@@ -135,12 +135,16 @@ This class efficiently bundles these properties, ensuring they are logically org
 
 the class encapsulates the data of books and methods that manipulate books data.
 
+<details>
+<summary>Books property code</summary>
+
 
 1. **Properties:**
 ```
 static books = [];
 ```
 
+</details>
 
 - `Books`: this property Store list of books object
 
@@ -149,6 +153,8 @@ static books = [];
 
 2. **Methods:**
 
+<details>
+<summary>class Book code</summary>
 
 ```
 static getBooks() {
@@ -167,6 +173,7 @@ return this.books;
 }
 ```
 
+</details>
 
 - `getBooks()`: This method allows users to get Books from localStorage, if the user first time opens this website then localStorage is empty for this website then Some books are stored on localStorage. If the user already uses this website then this method returns already store books
 
