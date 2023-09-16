@@ -229,7 +229,7 @@ static addBook(e) {
 ```
 
 
-- `addBook(e)`: This method use to add book on UI and other place. In this method user provide book details check and then do further operation. Also use Try-Catch-Finally Statements to handle error
+- `addBook(e)`: This method use to add book on UI and other place. In this method check user provided book details and then do further operation. Also use Try-Catch-Finally Statements to handle error
 
 ### Try-Catch-Finally Statements
 
