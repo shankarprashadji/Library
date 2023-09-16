@@ -20,9 +20,9 @@ This website allows users to manage their Books, which includes add, remove, and
 <h3 align="center">Desktop version</h3>
 
 
-## How to use Libray
+## How to use Library
 
-### <a href="">visit Siksha Library Website</a>
+1. ### <a href="">visit Siksha Library Website</a>
 
 
 
