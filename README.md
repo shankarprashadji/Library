@@ -73,8 +73,8 @@ This website allows users to manage their Booklist, which includes adding, remov
 - sort books by selecting the option from Sort Books: `By title`, `By author`, and `By book id`
 
 
-### LocalStorage stores your book list inside your browser
-- your added book is always there even if you close the browser. If you remove the book from the website then it will also be removed from localStorage
+### Save listed books
+- your added book is always there even if you close the browser. If you remove the book from the website then it will also be removed from browser.
 
 
 
