@@ -75,6 +75,10 @@ class Library {
           else return 0
         })
         break;
+        default :
+      DomManipulator.showAlert("none selected nothig to sort", "bg-info");
+
+
     }
     localStorage.setItem("books", JSON.stringify(this.books));
   }

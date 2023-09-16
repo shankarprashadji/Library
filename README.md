@@ -122,10 +122,6 @@ static removeAllBooks() {
 
 - `sort(headName)`: This method use for sort books by `title`, `author` and `book id`
 
-
-
-This class-based structure not only provides a neat and organized way to manage account-related data but also promotes code reusability and maintainability.
-
 **Switch Statements for User Actions:**
 
 The JavaScript file effectively uses a `switch` statement to handle different user actions:
