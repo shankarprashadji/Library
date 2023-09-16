@@ -154,7 +154,7 @@ static books = [];
 2. **Methods:**
 
 <details>
-<summary>class Book code</summary>
+<summary>getBooks() method code</summary>
 
 ```
 static getBooks() {
@@ -177,6 +177,8 @@ return this.books;
 
 - `getBooks()`: This method allows users to get Books from localStorage, if the user first time opens this website then localStorage is empty for this website then Some books are stored on localStorage. If the user already uses this website then this method returns already store books
 
+<details>
+<summary>addBook(book) method code</summary>
 
 ```
 static addBook(book) {
@@ -187,8 +189,12 @@ localStorage.setItem("books", JSON.stringify(this.books));
 }
 ```
 
+</details>
 
 - `addBook(book)`: Users can use this method to add a book, and then update the local storage and UI accordingly.
+
+<details>
+<summary>clasremoveBook(ISBN)s method code</summary>
 
 
 ```
@@ -196,9 +202,15 @@ static removeBook(ISBN) {
 this.books = this.books.filter((book) => book.ISBN !== ISBN);
 localStorage.setItem("books", JSON.stringify(this.books));
 }
+
 ```
+
+</details>
+
 - `removeBook(ISBN)`: Users can utilize this method to remove the book.
 
+<details>
+<summary>removeAllBooks() method code</summary>
 
 ```
 static removeAllBooks() {
@@ -206,6 +218,9 @@ this.books = [];
 localStorage.setItem("books", JSON.stringify(this.books));
 }
 ```
+
+</details>
+
 - `removeAllBooks()`: Users can use this method to remove all books.
 
 
