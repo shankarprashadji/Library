@@ -273,7 +273,7 @@ static sort(e) {
 ```
 - `sort(e)`: This method sort Books order by invoked  Library.sort(e.target.value) method and Update DOM by invoked main() method
 
-#### main() function is the try point of Application
+
 
 ```
 function  main() {
@@ -290,5 +290,8 @@ function  main() {
     list.appendChild(row);
   });
 }
+
+#### main() function is the try point of Application
+
 ```
 - `At the the last :` add EventListener to appropriate nodes
