@@ -94,7 +94,7 @@ This website allows users to manage their Booklist, which includes adding, remov
 
 ### JavaScript Classes
 
-show sort(headName) method contents
+show sort(headName) method code
 **Class-Based Structure for Book**
 
 
@@ -348,7 +348,7 @@ alert.classList.remove(className);
 
 
 <details>
-<summary>show addBook(e) method contents</summary>
+<summary>show addBook(e) method code</summary>
 
 ```
 static addBook(e) {
@@ -420,7 +420,7 @@ Robust error handling is a key feature of `try-catch-finally` statements to ensu
 
 
 <details>
-<summary>removeBook(e) method contents</summary>
+<summary>removeBook(e) method code</summary>
 
 ```
 static removeBook(e) {
@@ -439,7 +439,7 @@ e.target.parentElement.parentElement.remove();
 
 
 <details>
-<summary>sort(e) method contents</summary>
+<summary>sort(e) method code</summary>
 
 ```
 static sort(e) {
@@ -454,7 +454,7 @@ main()
 - `removeAllBooks()`: This method is used to remove all books from DOM and invoke Siksha Library. remove book() method for further operation
 
 <details>
-<summary>removeBook(e) method contents</summary>
+<summary>removeBook(e) method code</summary>
 
 
 ```
@@ -465,7 +465,7 @@ main()
 }
 ```
 
-</details>
+</details>xx
 
 - `sort(e)`: This method sorts Books in order by invoking Siksha Library. sort(e.target.value) method and Update DOM by invoking main() method
 
@@ -474,7 +474,7 @@ main()
 
 
 <details>
-<summary>show addBook(e) method contents</summary>
+<summary>show addBook(e) method code</summary>
 
 
 ```
