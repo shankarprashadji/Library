@@ -27,7 +27,9 @@ This website allows users to manage their Books, which includes add, remove, and
 
 - you can add your book in book list
 
-
+<p align="center">
+    <img src="./assets/example1.pmg" alt="website image">
+</p>
 
 
 
