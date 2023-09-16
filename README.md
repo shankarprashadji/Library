@@ -21,9 +21,9 @@ This website allows users to manage their Books, which includes add, remove, and
 1. ### <a href="">visit Siksha Library Website</a>
 
 - You see already listed books 
-- It allows remove all from library
+- It allows remove all books from library
 
-2. ### add your book 
+2. ### add book 
 
 - you can add your book in book list
 
@@ -34,9 +34,9 @@ This website allows users to manage their Books, which includes add, remove, and
 - by filling all details of book
 - click on add book button to add and your book shows in list 
 
+3. ### remove book
 
-
-
+- for removing book click on corresponding
 
 
 
