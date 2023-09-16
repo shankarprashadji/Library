@@ -18,12 +18,12 @@ This website allows users to manage their Books, which includes add, remove, and
 
 ## How to use Library
 
-1. #### <a href="">visit Siksha Library Website</a>
+1.**<a href="">visit Siksha Library Website</a>**
 
 - You see already listed books 
 - It allows to remove all books from library
 
-2. #### Add book 
+2. **Add book** 
 
 - You can add your book in book list.By filling all details of book and click on add book button to add and your book shows in list 
 
@@ -34,20 +34,20 @@ This website allows users to manage their Books, which includes add, remove, and
 
 
 
-3. #### Remove book
+3. **Remove book**
 
 - For removing book from list click on corresponding close icon of book. It deleted from list.
 
-4. #### Remove All 
+4. **Remove All** 
 
 - Click on Remove All button to remove all books from list.
 
 ## Features
 
-1. #### sort books
+1. **sort books**
 - sort book by select option from Sort Books: `By title`, `By auther` and `By book id`
 
-2. #### LocalStorage store your book list inside your broswer
+2.  **LocalStorage store**
 - your added book always there even if you close browser. If you remove book from website then it will also be removed from localStorage
 
 
