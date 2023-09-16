@@ -28,17 +28,35 @@ class Book {
 
 
 ***Library***
+class encapsulates the data of book list and method that manipulate book.
+1. **Properties:**
 ```
 static books = [];
 ```
-1. **Properties:**
 
-- `Books`:this property Store book object 
+- `Books`: this property Store list of books object 
 
 
 2. **Methods:**
 
-   - `deposit(amount)`: This method allows users to deposit funds into their account. It performs essential checks to ensure the amount is valid (greater than zero and not NaN) and updates the account balance accordingly.
+```
+static getBooks() {
+    if (
+      localStorage.getItem("books") === null ||
+      localStorage.getItem("books") === undefined
+    ) {
+      {
+        this.books = bookData;
+        localStorage.setItem("books", JSON.stringify(this.books));
+      }
+    } else {
+      this.books = JSON.parse(localStorage.getItem("books"));
+    }
+    return this.books;
+  }
+```
+
+   - `getBooks()`: This method allows users to deposit funds into their account. It performs essential checks to ensure the amount is valid (greater than zero and not NaN) and updates the account balance accordingly.
 
    - `withdraw(amount)`: Users can utilize this method to withdraw funds. It performs rigorous validation, ensuring the withdrawal amount is valid (greater than zero, not NaN, and not exceeding the current balance). It then updates the balance accordingly.
 
