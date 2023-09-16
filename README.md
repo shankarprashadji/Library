@@ -3,11 +3,11 @@
 This website allows users to manage their Books, which includes add, remove, and sort their Books.
 
 
-#### Very top section import books data and get node by their Ids 
+#### Very top section import books data and get nodes by their Ids 
 
-### JavaScript Class
+### JavaScript Classes
 
-**Class-Based Structure: Book**
+**Class-Based Structure for Book**
 
 class encapsulates the details of book.
 
@@ -30,7 +30,7 @@ class Book {
    This class efficiently bundles these properties, ensuring they are logically organized and encapsulated.
 
 
-**Class-Based Structure: Library**
+**Class-Based Structure for Library**
 
 class encapsulates the data of book list and method that manipulate book.
 
@@ -151,7 +151,7 @@ When the user selects one of option from Dropdown then  corresponding swicth cas
 This `switch` statement enhances code readability and maintainability.
 
 
-**Class-Based Structure: DomManipulator**
+**Class-Based Structure for DomManipulator**
 
 - `This class encapsulted method for DOM Manipulation`
 
