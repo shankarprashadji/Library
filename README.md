@@ -192,10 +192,9 @@ This `switch` statement enhances code readability and maintainability.
 
 - `showAlert(message, className, color)`: This method show pop up at the top of the page for ensuring to provide clear feedback to user, like message : `Please fill in all fields` , `Book id must me numeric value` and `book added to Library`
 
-
+<br>
 
 <details>
-
   <summary>show addBook(e) method contents</summary>
 
 ```
@@ -244,6 +243,9 @@ static addBook(e) {
   }
 ```
 </details>
+
+<br>
+
 
 - `addBook(e)`: This method use to add book on UI and other place. In this method check user provided book details and then do further operation. Also use Try-Catch-Finally Statements to handle error
 
