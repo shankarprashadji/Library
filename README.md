@@ -5,9 +5,8 @@ This website allows users to manage their Books, which includes add, remove, and
 
 ### JavaScript Class
 
-**Class-Based Structure:**
+**Class-Based Structure: Book**
 
-***Book*** 
 class encapsulates the details of book.
 
 
@@ -29,7 +28,8 @@ class Book {
    This class efficiently bundles these properties, ensuring they are logically organized and encapsulated.
 
 
-***Library***
+**Class-Based Structure: Library**
+
 class encapsulates the data of book list and method that manipulate book.
 1. **Properties:**
 ```
@@ -146,6 +146,38 @@ When the user selects one of option from Dropdown then  corresponding swicth cas
 - **default**: when user selected default that is none then pop  up show on UI for ensuring the user clear feedback.
 
 This `switch` statement enhances code readability and maintainability.
+
+
+**Class-Based Structure: DomManipulator**
+``dsjlkf``
+
+```
+class DomManipulator {
+  static showAlert(message, className, color) {
+    {
+      alert.classList.add(className, color);
+      alert.appendChild(document.createTextNode(message));
+      // alert.style.display = "block";
+      // clear alert message after 4 esc
+      setTimeout(() => {
+        alert.textContent = "";
+        alert.classList.remove(className);
+
+        // alert.style.display = "none";
+      }, 4000);
+    }
+  }
+```
+
+- `showAlert(message, className, color)`: this method show 
+
+
+
+
+
+
+
+
 
 
 ### Try-Catch-Finally Statements
