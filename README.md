@@ -124,7 +124,7 @@ static removeAllBooks() {
 
 **Switch Statements for User Actions:**
 
-The JavaScript file effectively uses a `switch` statement to handle different user actions:
+The JavaScript effectively uses a `switch` statement to handle user actions:
 
 - **Deposit**: When the user selects "Deposit" from the action dropdown, the corresponding case executes the `deposit` method of the `BankAccount` class, facilitating the addition of funds to the account.
 
