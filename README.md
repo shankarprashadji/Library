@@ -31,7 +31,8 @@ This website allows users to manage their Books, which includes add, remove, and
     <img src="./assets/example1.png" alt="website image">
 </p>
 
-
+- by filling all details of book
+- click on add book button to add and your book shows in list 
 
 
 
