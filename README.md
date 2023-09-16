@@ -116,7 +116,7 @@ static getBooks() {
   }
 ```
 
-   - `getBooks()`: This method allows users to get Books from localStorage,if user first time open this website than localStorage empty for this website then Some books Stores on localStorage. If user already use this website than this method return already store books
+   - `getBooks()`: This method allows users to get Books from localStorage,if user first time open this website then localStorage empty for this website then Some books Stores on localStorage. If user already use this website then this method return already store books
 
  ```
  static addBook(book) {
