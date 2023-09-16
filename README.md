@@ -318,6 +318,8 @@ This `switch` statement enhances code readability and maintainability.
 
 1. **Methods:**
 
+<details>
+<summary>showAlert(message, className, color) method code</summary>
 
 ```
 static showAlert(message, className, color) {
@@ -337,6 +339,7 @@ alert.classList.remove(className);
 }
 ```
 
+</details>
 
 - `showAlert(message, className, color)`: This method shows a pop-up at the top of the page for ensuring to provide clear feedback to the user, like messages: `Please fill in all fields, `Book id must be numeric value` and `book added to Siksha Library`
 
@@ -346,7 +349,6 @@ alert.classList.remove(className);
 
 <details>
 <summary>show addBook(e) method contents</summary>
-
 
 ```
 static addBook(e) {
@@ -421,6 +423,9 @@ Robust error handling is a key feature of `try-catch-finally` statements to ensu
 - **Finally Block**: The `finally` block print in the console shows that everything is working fine
 
 
+<details>
+<summary>removeBook(e) method contents</summary>
+
 ```
 static removeBook(e) {
 if (e.target.classList.contains("btn-close")) {
@@ -430,11 +435,15 @@ e.target.parentElement.parentElement.remove();
 }
 ```
 
+</details>
+
 
 - `removeBook(e)`: This method use to remove book from DOM and invoked Siksha Library.removeBook() method for further operation
 
 
 
+<details>
+<summary>sort(e) method contents</summary>
 
 ```
 static sort(e) {
@@ -444,9 +453,13 @@ main()
 }
 ```
 
+</details>
 
 - `removeAllBooks()`: This method is used to remove all books from DOM and invoke Siksha Library. remove book() method for further operation
 
+<details>
+<summary>removeBook(e) method contents</summary>
+
 
 ```
 static sort(e) {
@@ -454,8 +467,10 @@ console.log(e.target.value);
 Siksha Library.sort(e.target.value)
 main()
 }
-}
 ```
+
+</details>
+
 - `sort(e)`: This method sorts Books in order by invoking Siksha Library. sort(e.target.value) method and Update DOM by invoking main() method
 
 
