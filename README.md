@@ -273,6 +273,22 @@ static sort(e) {
 ```
 - `sort(e)`: This method sort Books order by invoked  Library.sort(e.target.value) method and Update DOM by invoked main() method
 
-#### Initiate program by main() function
+#### main() function is the try point of Application
 
+```
+function  main() {
+  const books = Library.getBooks();
+  list.innerHTML = "";
+  books.forEach((book) => {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+<td>${book.title}</td>
+<td>${book.author}</td>
+<td>${book.ISBN}</td>
+<td><button id=${book.ISBN} class="btn-close btn"></button></td>
+`;
+    list.appendChild(row);
+  });
+}
+```
 - `At the the last :` add EventListener to appropriate nodes
