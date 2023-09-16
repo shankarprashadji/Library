@@ -3,6 +3,8 @@
 This website allows users to manage their Books, which includes add, remove, and sort their Books.
 
 
+## Depply Knowing What's going on this Website
+
 #### Very top section import books data and get nodes by their Ids 
 
 ### JavaScript Classes
