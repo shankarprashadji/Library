@@ -276,7 +276,7 @@ This `switch` statement enhances code readability and maintainability.
 
 
 
-**Class-Based Structure for DomManipulator**
+**DomManipulator Class**
 
 
 - `This class encapsulated method for DOM Manipulation`
