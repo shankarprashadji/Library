@@ -432,7 +432,7 @@ main()
 }
 ```
 
-</details>xx
+</details>
 
 - `sort(e)`: This method sorts Books in order by invoking Siksha Library. sort(e.target.value) method and Update DOM by invoking main() method
 
