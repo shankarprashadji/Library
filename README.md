@@ -382,7 +382,8 @@ Robust error handling is a key feature of `try-catch-finally` statements to ensu
 - **Catch Block**: In the event of an error call showAlert() generates user-friendly error messages as pop up. This ensures that users receive clear and informative feedback about the nature of the issue.
 
 
-- **Finally Block**: The `finally` block print in the console shows that everything is working fine
+- **Finally Block**: The `finally` block print in the console shows that everything is working fine.
+It execute even try block or catch block executed.
 
 
 <details>
