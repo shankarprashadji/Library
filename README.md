@@ -158,7 +158,7 @@ localStorage.setItem("books", JSON.stringify(this.books));
 - `addBook(book)`: Users can use this method to add a book, and then update the local storage and UI accordingly.
 
 <details>
-<summary>clasremoveBook(ISBN)s method code</summary>
+<summary>removeBook(ISBN) method code</summary>
 
 
 ```
