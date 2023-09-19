@@ -19,11 +19,6 @@ This website allows users to manage their Booklist, which includes adding, remov
 - You can add your book to the booklist. By filling in all the details of the book and clicking on the add book button to add your book and book shows in the list
 
 
-- refer below image for add book
-<p align="center">
-<img src="./assets/example1.png" height="300" alt="website image">
-</p>
-
 -------------------------------------------
 
 ### Remove book
