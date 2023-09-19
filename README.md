@@ -3,34 +3,6 @@
 
 This website allows users to manage their Booklist, which includes adding, removing, and sorting their Books.
 
-
-<details>
-<summary>Mobile version view</summary>
-
-<p align="center">
-<img src="./assets/mobile-version-site.png" height="400" alt="website image">
-</p>
-
-<h3 align="center">Mobile version</h3>
-</details>
-
-
-<hr>
-
-<details>
-<summary>Mobile version view</summary>
-
-<p align="center">
-<img src="./assets/desktop-version-site.png" alt="website image">
-</p>
-
-<h3 align="center">Desktop version</h3>
-</details>
-
-
-
-
-
 ## How to use Library
 
 
