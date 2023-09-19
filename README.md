@@ -63,7 +63,6 @@ This website allows users to manage their Booklist, which includes adding, remov
 
 **Class-Based Structure for Book**
 
-
 the class encapsulates the details of the book.
 
 
@@ -96,7 +95,7 @@ This class efficiently bundles these properties, ensuring they are logically org
 
 
 
-**Class-Based Structure for Siksha Library**
+**Library Class**
 
 
 the class encapsulates the data of books and methods that manipulate books data.
