@@ -61,7 +61,6 @@ This website allows users to manage their Booklist, which includes adding, remov
 
 ### JavaScript Classes
 
-show sort(headName) method code
 **Class-Based Structure for Book**
 
 
