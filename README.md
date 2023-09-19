@@ -274,7 +274,7 @@ When the user selects one of the options from the Dropdown the corresponding swi
 This `switch` statement enhances code readability and maintainability.
 
 
-
+<hr>
 
 **DomManipulator Class**
 
