@@ -92,8 +92,7 @@ this.ISBN = ISBN;
 
 This class efficiently bundles these properties, ensuring they are logically organized and encapsulated.
 
-
-
+<hr>
 
 **Library Class**
 
