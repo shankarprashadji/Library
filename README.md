@@ -61,7 +61,7 @@ This website allows users to manage their Booklist, which includes adding, remov
 
 ### JavaScript Classes
 
-**Class-Based Structure**
+***Class-Based Structure***
 
  **Book Class**
 
